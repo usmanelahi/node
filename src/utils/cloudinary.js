@@ -19,8 +19,7 @@ const uploadCloudinary = async (localFilePath) => {
       .catch((error) => {
         console.log(`Error in cloudinary configuration ${error}`);
       });
-
-    console.log(`File is uploaded on cloudinary ${uploadResult}`);
+    fs.unlinkSync(localFilePath);
     return uploadResult;
   } catch (e) {
     console.log(`Error in file uploding on cloudinary ===>> ${e}`);
