@@ -20,3 +20,4 @@ project-root
 ├── .gitignore           # Specifies files and directories to be ignored by version control
 ├── .env                 # Environment variables for configuration
 └── package.json         # Manages project dependencies, scripts, and version
+```

@@ -23,6 +23,6 @@ app.use(
   })
 );
 
-app.use(cookieParser())
+app.use(cookieParser());
 
 export { app };
